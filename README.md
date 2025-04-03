@@ -32,7 +32,7 @@ This project focuses on real-time **yellow color detection** using OpenCV. The g
 
 ### 1. **Laptop Not Detecting Yellow**  
    - **Issue:** The system was not detecting yellow properly.  
-   - **Solution:** We ran a script to fix the central position and placed a yellow object in the center to observe its HSV values. After tuning the HSV range, we successfully detected yellow.  
+   - **Solution:** I ran a script to fix the central position and placed a yellow object in the center to observe its HSV values. After tuning the HSV range, we successfully detected yellow.  
 
 ### 2. **General Errors Encountered**  
    - **Incorrect HSV Range:** Yellow was not detected properly initially. Adjusting the HSV thresholds fixed this issue.  
@@ -44,10 +44,6 @@ This project focuses on real-time **yellow color detection** using OpenCV. The g
 - The program will detect yellow and display its HSV and RGB values in real time.  
 - Modify the HSV values if needed for better accuracy.  
 
-## Future Improvements  
-- Enhance detection accuracy under different lighting conditions  
-- Expand to detect multiple colors  
-- Implement a user-friendly GUI  
 
 ## Contributing  
 Feel free to fork the repository, create a feature branch, and submit a pull request.  
